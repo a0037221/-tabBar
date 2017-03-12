@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E837691C1DD1D6350027912B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E837691B1DD1D6350027912B /* main.m */; };
+		E837691F1DD1D6350027912B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E837691E1DD1D6350027912B /* AppDelegate.m */; };
+		E83769271DD1D6350027912B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83769261DD1D6350027912B /* Images.xcassets */; };
+		E837692A1DD1D6350027912B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E83769281DD1D6350027912B /* LaunchScreen.xib */; };
+		E83769361DD1D6350027912B /* ____TabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E83769351DD1D6350027912B /* ____TabBarTests.m */; };
+		E83769411DD1D65D0027912B /* ZTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E83769401DD1D65D0027912B /* ZTabBarViewController.m */; };
+		E83769441DD1D6770027912B /* ZNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E83769431DD1D6770027912B /* ZNavViewController.m */; };
+		E837694C1DD1D9520027912B /* ZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E837694B1DD1D9520027912B /* ZTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E83769301DD1D6350027912B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E837690E1DD1D6350027912B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E83769151DD1D6350027912B;
+			remoteInfo = "移动显示TabBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E83769161DD1D6350027912B /* 移动显示TabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "移动显示TabBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E837691A1DD1D6350027912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E837691B1DD1D6350027912B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E837691D1DD1D6350027912B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		E837691E1DD1D6350027912B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		E83769261DD1D6350027912B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E83769291DD1D6350027912B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E837692F1DD1D6350027912B /* 移动显示TabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "移动显示TabBarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E83769341DD1D6350027912B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E83769351DD1D6350027912B /* ____TabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____TabBarTests.m"; sourceTree = "<group>"; };
+		E837693F1DD1D65D0027912B /* ZTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTabBarViewController.h; path = ../../ZTabBarViewController.h; sourceTree = "<group>"; };
+		E83769401DD1D65D0027912B /* ZTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTabBarViewController.m; path = ../../ZTabBarViewController.m; sourceTree = "<group>"; };
+		E83769421DD1D6770027912B /* ZNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZNavViewController.h; path = ../../ZNavViewController.h; sourceTree = "<group>"; };
+		E83769431DD1D6770027912B /* ZNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZNavViewController.m; path = ../../ZNavViewController.m; sourceTree = "<group>"; };
+		E83769491DD1D6F50027912B /* TabBar.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBar.pch; sourceTree = "<group>"; };
+		E837694A1DD1D9520027912B /* ZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTableViewController.h; sourceTree = "<group>"; };
+		E837694B1DD1D9520027912B /* ZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E83769131DD1D6350027912B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E837692C1DD1D6350027912B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E837690D1DD1D6350027912B = {
+			isa = PBXGroup;
+			children = (
+				E83769181DD1D6350027912B /* 移动显示TabBar */,
+				E83769321DD1D6350027912B /* 移动显示TabBarTests */,
+				E83769171DD1D6350027912B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E83769171DD1D6350027912B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E83769161DD1D6350027912B /* 移动显示TabBar.app */,
+				E837692F1DD1D6350027912B /* 移动显示TabBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E83769181DD1D6350027912B /* 移动显示TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E83769451DD1D6BD0027912B /* Main */,
+				E83769471DD1D6BD0027912B /* Others */,
+				E83769261DD1D6350027912B /* Images.xcassets */,
+				E83769281DD1D6350027912B /* LaunchScreen.xib */,
+				E83769191DD1D6350027912B /* Supporting Files */,
+			);
+			path = "移动显示TabBar";
+			sourceTree = "<group>";
+		};
+		E83769191DD1D6350027912B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E837691A1DD1D6350027912B /* Info.plist */,
+				E837691B1DD1D6350027912B /* main.m */,
+				E83769491DD1D6F50027912B /* TabBar.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E83769321DD1D6350027912B /* 移动显示TabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E83769351DD1D6350027912B /* ____TabBarTests.m */,
+				E83769331DD1D6350027912B /* Supporting Files */,
+			);
+			path = "移动显示TabBarTests";
+			sourceTree = "<group>";
+		};
+		E83769331DD1D6350027912B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E83769341DD1D6350027912B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E83769451DD1D6BD0027912B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E83769461DD1D6BD0027912B /* Controllers */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E83769461DD1D6BD0027912B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E837691D1DD1D6350027912B /* AppDelegate.h */,
+				E837691E1DD1D6350027912B /* AppDelegate.m */,
+				E837693F1DD1D65D0027912B /* ZTabBarViewController.h */,
+				E83769401DD1D65D0027912B /* ZTabBarViewController.m */,
+				E83769421DD1D6770027912B /* ZNavViewController.h */,
+				E83769431DD1D6770027912B /* ZNavViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E83769471DD1D6BD0027912B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E83769481DD1D6BD0027912B /* Controllers */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		E83769481DD1D6BD0027912B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E837694A1DD1D9520027912B /* ZTableViewController.h */,
+				E837694B1DD1D9520027912B /* ZTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E83769151DD1D6350027912B /* 移动显示TabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E83769391DD1D6350027912B /* Build configuration list for PBXNativeTarget "移动显示TabBar" */;
+			buildPhases = (
+				E83769121DD1D6350027912B /* Sources */,
+				E83769131DD1D6350027912B /* Frameworks */,
+				E83769141DD1D6350027912B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "移动显示TabBar";
+			productName = "移动显示TabBar";
+			productReference = E83769161DD1D6350027912B /* 移动显示TabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E837692E1DD1D6350027912B /* 移动显示TabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E837693C1DD1D6350027912B /* Build configuration list for PBXNativeTarget "移动显示TabBarTests" */;
+			buildPhases = (
+				E837692B1DD1D6350027912B /* Sources */,
+				E837692C1DD1D6350027912B /* Frameworks */,
+				E837692D1DD1D6350027912B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E83769311DD1D6350027912B /* PBXTargetDependency */,
+			);
+			name = "移动显示TabBarTests";
+			productName = "移动显示TabBarTests";
+			productReference = E837692F1DD1D6350027912B /* 移动显示TabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E837690E1DD1D6350027912B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Z;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					E83769151DD1D6350027912B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					E837692E1DD1D6350027912B = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = E83769151DD1D6350027912B;
+					};
+				};
+			};
+			buildConfigurationList = E83769111DD1D6350027912B /* Build configuration list for PBXProject "移动显示TabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E837690D1DD1D6350027912B;
+			productRefGroup = E83769171DD1D6350027912B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E83769151DD1D6350027912B /* 移动显示TabBar */,
+				E837692E1DD1D6350027912B /* 移动显示TabBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E83769141DD1D6350027912B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E837692A1DD1D6350027912B /* LaunchScreen.xib in Resources */,
+				E83769271DD1D6350027912B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E837692D1DD1D6350027912B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E83769121DD1D6350027912B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E837691F1DD1D6350027912B /* AppDelegate.m in Sources */,
+				E837694C1DD1D9520027912B /* ZTableViewController.m in Sources */,
+				E837691C1DD1D6350027912B /* main.m in Sources */,
+				E83769441DD1D6770027912B /* ZNavViewController.m in Sources */,
+				E83769411DD1D65D0027912B /* ZTabBarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E837692B1DD1D6350027912B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E83769361DD1D6350027912B /* ____TabBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E83769311DD1D6350027912B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E83769151DD1D6350027912B /* 移动显示TabBar */;
+			targetProxy = E83769301DD1D6350027912B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E83769281DD1D6350027912B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E83769291DD1D6350027912B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E83769371DD1D6350027912B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E83769381DD1D6350027912B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E837693A1DD1D6350027912B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/qingliang/Desktop/fuxi/移动显示TabBar/移动显示TabBar/TabBar.pch";
+				INFOPLIST_FILE = "移动显示TabBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E837693B1DD1D6350027912B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/qingliang/Desktop/fuxi/移动显示TabBar/移动显示TabBar/TabBar.pch";
+				INFOPLIST_FILE = "移动显示TabBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E837693D1DD1D6350027912B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "移动显示TabBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/移动显示TabBar.app/移动显示TabBar";
+			};
+			name = Debug;
+		};
+		E837693E1DD1D6350027912B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "移动显示TabBarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/移动显示TabBar.app/移动显示TabBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E83769111DD1D6350027912B /* Build configuration list for PBXProject "移动显示TabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E83769371DD1D6350027912B /* Debug */,
+				E83769381DD1D6350027912B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E83769391DD1D6350027912B /* Build configuration list for PBXNativeTarget "移动显示TabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E837693A1DD1D6350027912B /* Debug */,
+				E837693B1DD1D6350027912B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E837693C1DD1D6350027912B /* Build configuration list for PBXNativeTarget "移动显示TabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E837693D1DD1D6350027912B /* Debug */,
+				E837693E1DD1D6350027912B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E837690E1DD1D6350027912B /* Project object */;
+}
